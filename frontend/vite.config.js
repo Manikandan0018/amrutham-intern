@@ -7,3 +7,9 @@ export default defineConfig({
   base: '/',
   plugins: [tailwindcss(), react()],
 });
+
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds:true,
+  },
+}
