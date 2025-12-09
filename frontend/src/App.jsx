@@ -1,7 +1,7 @@
 
 import './App.css'
-import { Apoint } from './Home/Apoint'
-import { Connect } from './Home/connect'
+import { Apoint } from './Home/Apoint.jsx'
+import { Connect } from './Home/connect.jsx'
 import { Faq } from './Home/Faq'
 import { Footer } from './Home/Footer'
 import Home from './Home/Home'
@@ -20,7 +20,7 @@ function App() {
       <Testimonal />
       <Faq />
       <Apoint />
-      <Connect />
+      <Connect/>
       <Footer/>
     </>
   )
