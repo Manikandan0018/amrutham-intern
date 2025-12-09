@@ -1,7 +1,7 @@
 import React from 'react'
-import c from "../image/contact.jpg"
+import c from "../image/contact.jpg";
 
-export const Connect = () => {
+export const Contact = () => {
   return (
     <>
       {/* LET'S CONNECT SECTION */}
@@ -92,3 +92,4 @@ export const Connect = () => {
     </>
   );
 }
+
