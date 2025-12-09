@@ -1,13 +1,13 @@
 
 import './App.css'
 import { Apoint } from './Home/Apoint.jsx'
+import { Choose } from './Home/Choose.jsx'
 import { Contact } from './Home/Contact.jsx'
-import { Faq } from './Home/Faq'
-import { Footer } from './Home/Footer'
-import Home from './Home/Home'
-import { JoinOur } from './Home/joinOur'
+import { Faq } from './Home/Faq.jsx'
+import { Footer } from './Home/Footer.jsx'
+import Home from './Home/Home.jsx'
+import { Join } from './Home/Join.jsx'
 import { Testimonal } from './Home/Testimonal'
-import { WhyChoose } from './Home/WhyChoose'
 
 function App() {
 
@@ -15,8 +15,8 @@ function App() {
   return (
     <>
       <Home />
-      <WhyChoose />
-      <JoinOur />
+      <Choose/>
+      <Join/>
       <Testimonal />
       <Faq />
       <Apoint />

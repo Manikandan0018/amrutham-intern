@@ -6,7 +6,7 @@ import jm3 from "../image/jm3.png";
 import jbim from "../image/jbim.png";
 import jb from "../image/jb.png";
 
-export const JoinOur = () => {
+export const Join = () => {
   return (
     <>
       {/* JOIN OUR CIRCLE OF CARE SECTION */}

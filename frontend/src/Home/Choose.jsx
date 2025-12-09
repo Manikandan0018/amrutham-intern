@@ -6,7 +6,7 @@ import w4 from "../image/w4.png";
 import w5 from "../image/w5.png";
 import wp5 from "../image/wp5.png";
 
-export const WhyChoose = () => {
+export const Choose = () => {
   return (
     <>
       {/* WHY DOCTORS CHOOSE US SECTION */}
